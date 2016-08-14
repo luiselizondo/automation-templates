@@ -1,0 +1,45 @@
+{
+    "family": "node-simple-app",
+    "taskRoleArn": "",
+    "containerDefinitions": [
+        {
+            "name": "node-simple-app",
+            "image": "880416032174.dkr.ecr.us-east-1.amazonaws.com/nodejs-simple-application",
+            "cpu": 0.5,
+            "memory": 128,
+            "links": [
+            ],
+            "portMappings": [
+                {
+                    "containerPort": 3000,
+                    "hostPort": 80
+                }
+            ],
+            "essential": true,
+            "entryPoint": [
+            ],
+            "command": [
+                "npm start"
+            ],
+            "environment": [
+                {
+                    "name": "NODE_ENV",
+                    "value": "production"
+                }
+            ],
+            "mountPoints": [
+
+            ],
+            "volumesFrom": [
+
+            ],
+            "workingDirectory": "/var/www",
+            "disableNetworking": false,
+            "privileged": false,
+            "readonlyRootFilesystem": true,
+        }
+    ],
+    "volumes": [
+        
+    ]
+}
