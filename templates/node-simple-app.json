@@ -5,7 +5,7 @@
         {
             "name": "node-simple-app",
             "image": "880416032174.dkr.ecr.us-east-1.amazonaws.com/nodejs-simple-application",
-            "cpu": 0.5,
+            "cpu": 1,
             "memory": 128,
             "links": [
             ],
