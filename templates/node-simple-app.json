@@ -36,10 +36,10 @@
             "workingDirectory": "/var/www",
             "disableNetworking": false,
             "privileged": false,
-            "readonlyRootFilesystem": true,
+            "readonlyRootFilesystem": true
         }
     ],
     "volumes": [
-        
+
     ]
 }
