@@ -4,7 +4,7 @@
     "containerDefinitions": [
         {
             "name": "node-simple-app",
-            "image": "880416032174.dkr.ecr.us-east-1.amazonaws.com/nodejs-simple-application",
+            "image": "880416032174.dkr.ecr.us-east-1.amazonaws.com/nodejs-simple-application:24",
             "cpu": 1,
             "memory": 128,
             "links": [
